@@ -1,2 +1,2 @@
 # CHSG
-source code will coming soon ~~~
+## Once the paper is accepted, we will release the code here.  ~~~
