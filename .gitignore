@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Environments and editors
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.agents/
+.codex/
+
+# Datasets and generated outputs
+dataset/
+data/
+results/
+Result/
+outputs/
+checkpoints/
+figures/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npz
+*.npy
+
+# Experiment reports and generated figures
+*.xlsx
+*.xls
+*.csv
+*.tex
+*.eps
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.pdf
+
+# Temporary and platform files
+*.log
+*.tmp
+*.bak
+*.zip
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+einops
+fvcore
+hdf5storage
+matplotlib
+numpy
+openpyxl
+pandas
+scikit-learn
+scipy
+timm
+torch
+tqdm
