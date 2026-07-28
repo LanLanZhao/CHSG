@@ -48,10 +48,4 @@ def ExperimentParams():
     parser.add_argument("--data_aug", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--norm", default="max_min_norm", choices=("max_min_norm", "mean_var_norm"))
     parser.add_argument("--patch_size", default=13, type=int)
-    parser.add_argument(
-        "--boundary-mode",
-        default="cyclic",
-        choices=("cyclic", "reflect", "replicate", "zero"),
-        help="Boundary strategy used by CHSG graph aggregation.",
-    )
     return parser.parse_args()

@@ -81,14 +81,27 @@ Useful arguments:
 - `--split_type fixed --train_num 30`: use a fixed number of training samples per class.
 - `--split_type ratio --train_ratio 0.05`: use a training ratio.
 - `--components 30`: enable PCA with 30 components; `0` disables PCA.
-- `--boundary-mode cyclic`: choose `cyclic`, `zero`, `reflect`, or `replicate`.
 - `--no-data_aug`: disable training-time augmentation.
 
 Run `python main_v.py --help` for the complete option list.
 
 ## Citation
 
-Citation information will be added after the associated paper is publicly available.
+If you find this work useful, please cite:
+
+```bibtex
+@ARTICLE{11613205,
+  author={Zhao, Lianlian and Yang, Lina and You, Zhiyang and Qin, Guanyu and Wu, Xinzhang and Yang, Haoyan and Chen, Gang},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  title={CHSG: A Center-Aware Axial Hierarchical Sparse Graph Network for Hyperspectral Image Classification},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-18},
+  keywords={Modeling;Pixel;Modules (abstract algebra);Convolution;Educational institutions;Convolutional neural networks;Hyperspectral imaging;Training;Image classification;Testing;Hyperspectral image classification;Graph neural networks;Convolution neural network;Center-Aware;Spectral-spatial},
+  doi={10.1109/JSTARS.2026.3714551}
+}
+```
 
 ## License
 

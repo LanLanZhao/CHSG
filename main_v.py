@@ -408,7 +408,6 @@ if __name__ == '__main__':
             num_classes=num_classes,
             band=n_bands,
             patch_size=Args.patch_size,
-            boundary_mode=Args.boundary_mode,
         ).to(device)
         print("使用模型: CHSG")
         model.eval()
